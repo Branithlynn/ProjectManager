@@ -1,0 +1,57 @@
+﻿@using Common.Service
+@model ProjectManager.ViewModel.ProjectVM.CreateVM
+@{
+    ViewBag.Title = "CREATE PROJECT";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<center>
+            <div class="container">
+            
+                <fieldset>
+                <legend>Add Project</legend>
+                <form action="/Project/CreateProject" method="post">
+                    <div class="grid">
+
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.Title)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.Title,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.Title)
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.Description)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.Description,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.Description)
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="right">
+                                    <a href=/Project/ProjectsList>Back</a>
+                                    <input type="submit" value="create" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        </center>

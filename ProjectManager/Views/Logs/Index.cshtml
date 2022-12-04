@@ -1,0 +1,91 @@
+﻿@using Common.Repository
+@using Common.Service
+@using Common.Entity
+@model ProjectManager.ViewModel.WorkLogVM.DisplayVM
+@{
+    ViewBag.Title = "WORK LOGS";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class = "grid">
+
+            
+            <form action="/Logs/Index" method="get">
+                <div class = "row">
+                    <div class = "col-4">
+                        Title:
+                    </div>
+                    <div class = "col-6">
+                        From:
+                    </div>
+                    <div class = "col-6">
+                        To:
+                    </div>
+                    <div class = "col-1">
+                        </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-4">
+                        @Html.TextBoxFor( x=> x.Filter.taskTitle)
+                    </div>
+                    <div class = "col-6">
+                        @Html.EditorFor(x => x.Filter.From)
+                    </div>
+                    <div class = "col-6">
+                        @Html.EditorFor(x => x.Filter.From)
+                    </div>
+                    <div class = "col-1">
+                        <input type = "submit" value = "filter" />
+                        <a href = "/Logs/Index">clear</a>
+                    </div>
+                </div>
+            </form>
+            <div class = "row">
+                <div class = "col-2">
+                    <a class = "left"href="/Logs/Create">NEW</a>
+                </div>
+            </div>
+            
+
+            <div class = "row">
+
+        <div class="col-1">
+            Task Title
+        </div>
+
+        <div class="col-1">
+            Worked Hours
+        </div>
+
+        <div class="col-1">
+            Date
+        </div>
+        <div class="col-2">
+        </div>
+    </div>
+@foreach (var item in Model.LogsList) {
+    <div class = "row">
+            <div class = "col-1">
+                @foreach (var task in Model.TasksList)
+                {
+                        if(task.ID == item.TaskID)
+                        {
+                            @task.title
+                        }
+                }
+            </div>
+
+            <div class = "col-1">
+                @item.LoggedHours
+            </div>
+
+            <div class = "col-1">
+                @item.Date
+            </div>
+    </div>
+}
+        <div>
+             @{
+                 Html.RenderPartial("/Views/Shared/PagerPartial.cshtml", Model.Pager);
+             }
+        </div>
+</div>

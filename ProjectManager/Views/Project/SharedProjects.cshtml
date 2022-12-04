@@ -1,0 +1,28 @@
+﻿@using Common.Entity
+@using Common.Repository
+@using Common.Service
+@model ProjectManager.ViewModel.ProjectVM.SharedProjectsVM
+@{
+    ViewBag.Title = "SHARED PROJECTS";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class = "grid">
+        <div class = "row">
+            <div class = "col-1">Title:</div>
+            <div class = "col-2">Description:</div>
+            <div class = "col-2">Actions:</div>
+        </div>
+
+            @foreach (var item in Model.Shared)
+            {
+                <div class = "row">
+                    <div class = "col-1">@item.title</div>
+                    <div class = "col-2">@item.description</div>
+                    <div class="col-2">
+                            @Html.ActionLink("Remove" ,"RevomoveShare", new {id = item.ID , userID = Authentication.LoggedUser.ID}) |
+                            @Html.ActionLink("View" ,"Redirect", new {id = item.ID})
+                        </div>
+                </div>
+            }
+        
+</div>

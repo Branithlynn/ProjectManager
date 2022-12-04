@@ -1,0 +1,43 @@
+﻿@model ProjectManager.ViewModel.WorkLogVM.CreateSpecificVM
+@using Common.Service
+@{
+    ViewBag.Title = "ADD LOG";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class="container">        
+    <fieldset>
+        <legend>Add Log</legend>
+        <form action="/Logs/CreateSpecific" method="post">
+            <div class="grid">
+                    @Html.HiddenFor(x => x.Date)
+                    @Html.HiddenFor(x => x.TaskID)
+                    @Html.HiddenFor(x => x.UserID)
+                <div class="row">
+                    
+                    <div class="col-1">
+                        @Html.LabelFor(x => x.LoggedHours)
+                    </div>
+
+                    <div class="col-2">
+                        <input type="number" name="LoggedHours" min="1" max="24" step="1"/>
+                        
+                    </div>
+                    <div class="col-2">
+                        @Html.ValidationMessageFor(x=>x.LoggedHours)
+                    </div>
+
+                </div>
+                
+                <div class="row">
+                    <div class="col-1">
+                        <div class="right">
+                            <a href=/Task/TaskDetail>Back</a>
+                                <input type="submit" value="create" />
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </fieldset>
+</div>

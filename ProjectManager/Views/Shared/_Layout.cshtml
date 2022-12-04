@@ -1,0 +1,45 @@
+﻿@using Common.Service
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <header>
+        <div class="container menu">
+            <ul>
+               <a  class="left" href="/Home/HomePage">Project Manager</a>
+               @if(Authentication.LoggedUser == null)
+               {
+                    <a  class="right" href="/Users/Register">Register</a>
+                    <a  class="right" href="/Users/Loggin">Loggin</a>
+               }
+               else
+               {
+                   <a class="right" href="/Users/Logout">Logout</a>
+                   <span class="right">@Authentication.LoggedUser.username</span>
+               }
+               @if (Authentication.LoggedUser != null && Authentication.LoggedUser.IsAdmin)
+               {
+                    <a class="left" href="/Users/UserList">UserList</a>
+                    <a class="left" href="/Project/ProjectsList">Projects</a>
+                    <a class="left" href="/Project/SharedProjects">Shared Projects</a>
+                    <a class="left" href="/Logs/Index">Work Logs</a>
+                    
+               }
+               else if (Authentication.LoggedUser != null && Authentication.LoggedUser.IsAdmin == false)
+               {
+                    <a class="left" href="/Project/ProjectsList">ProjectList</a>
+                    <a class="left" href="/Project/SharedProjects">Shared Projects</a>
+                    <a class="left" href="/Logs/Index">Work Logs</a>
+               }
+        </ul>
+        </div>
+    </header>
+    <div class = "container">
+        @RenderBody()
+    </div>
+</body>
+</html>

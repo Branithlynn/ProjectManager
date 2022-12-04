@@ -1,0 +1,30 @@
+﻿@model ProjectManager.ViewModel.Shareed.PagerVM
+@{
+    var controller = this.ViewContext.RouteData.Values["controller"];
+    var action = this.ViewContext.RouteData.Values["action"];
+}
+
+<div class = "row">
+    <div class = "col3 pager">
+        <script>
+
+            function ddlItemsPerPage_OnChange(){
+
+                var control = document.getElementById("ddlItemsPerPage");
+                var url = "/@(controller)/@(action)?Pager.ItemsPerPage="+ control.options[control.selectedIndex].value;
+
+                window.location.href = url;
+            }
+        </script>
+
+            @for(int i = 1; i <= Model.PagesCount; i++)
+            {
+                <a class="@(i == Model.Page ? "b" : "")" href="/@(controller)/@(action)?Pager.ItemsPerPage=@Model.ItemsPerPage&Pager.Page=@i">@i</a>
+            }
+            <select id= "ddlItemsPerPage" onchange= "ddlItemsPerPage_OnChange()">
+                <option @(Model.ItemsPerPage == 2 ? "selected" : "")>2</option>
+                <option @(Model.ItemsPerPage == 5 ? "selected" : "")>5</option>
+                <option @(Model.ItemsPerPage == 10 ? "selected" : "")>10</option>
+            </select>
+    </div>
+</div>

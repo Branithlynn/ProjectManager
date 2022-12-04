@@ -1,0 +1,14 @@
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\Common.dll.config
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\Common.pdb
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\EntityFramework.dll
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\EntityFramework.xml
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.csproj.CopyComplete
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.dll
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.pdb
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.Migrations.initial.resources
+C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\Common\obj\Debug\Common.csproj.GenerateResource.cache

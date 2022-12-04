@@ -1,0 +1,42 @@
+﻿@model ProjectManager.ViewModel.TaskVM.ShareVM
+@using Common.Service
+@{
+    ViewBag.Title = "SHARE TASK";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<fieldset>
+            <form action="/Task/ShareTask" method="post">
+                <div class = "grid">
+                    <div class="row">
+                        <div class="col-1">
+                                Title:
+                            </div>
+
+                            <div class="col-2">
+                                @Authentication.LoggedTask.title
+                            </div>
+                    </div>
+
+                            <div class="col-1">
+                                Share with : 
+                            </div>
+                            <div class="col-2">
+                                @Html.DropDownListFor(x => x.SelectedID , @Model.ListOfUsers , new{})
+                            </div>
+                    
+                            
+                            <div class="col-3">
+                                <div class="right">
+                                    <a href=/Task/TaskList>Back</a>
+                                    <input type="submit" value="share" />
+                                </div>
+                            </div>
+                        </div>
+                </form>
+        </fieldset>
+
+        <div class = "row">Shared with :</div>
+        @foreach (var item in @Model.SharedWith)
+        {
+            <div class = "row"> @item.username</div>
+        }

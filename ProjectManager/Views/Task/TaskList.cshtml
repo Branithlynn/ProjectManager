@@ -1,0 +1,111 @@
+﻿@using Common.Service
+@using Common.Repository
+@model ProjectManager.ViewModel.TaskVM.DisplayVM
+@{
+    ViewBag.Title = "TASK LIST";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class ="grid">
+    <fieldset>
+                <div class = "row">Owner: @Model.Owner.username</div>
+                <div class = "row">Project title: @Authentication.LoggedProject.title</div>
+                <div class = "row">Project description: @Authentication.LoggedProject.description</div>
+            
+    </fieldset>
+                
+            <div class = "row">
+                <div class = "col-5">
+                    <a href = "/Task/AddTask">NEW</a>
+                </div>
+
+                <form asp-controller="Task" asp-action="TaskList" method = "get" role = "form">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class = "col-7">
+                        
+                            Whos tasks you want to see : @Html.DropDownListFor(m => m.SelectedID, Model.ListOfUsers, new {})
+                        
+                    </div>
+                    <div class = "col-5">
+                        <input id = "submit" type = "submit" value = "filter" />
+                    </div>
+                </form>
+
+            </div>
+            
+
+
+
+            <fieldset>
+                <legend>TASKS</legend>
+            
+            <div class = "row">
+                <div class="col-2">
+                    Owner
+                </div>
+                <div class="col-2">
+                    Title
+                </div>
+                @foreach (var item in Model.TaskList)
+                {
+                    @if((Authentication.LoggedUser.ID == Model.SelectedID) || Model.SelectedID == 0)
+                    {
+                        <div class = "col-2">
+                            Actions
+                        </div>
+                        break;
+                    }
+                }
+                
+
+                <div class="col-2">
+                </div>
+
+            </div>
+            @if(Model.TaskList.Count == 0)
+            {
+                 <div class = "row">
+                        <div class="col-2">
+                        This User doesnt have any tasks!
+                        </div>
+                 </div>
+            }
+            else
+            {
+                @foreach (var item in Model.TaskList)
+            {
+                if (Authentication.LoggedProject.ID == item.parentID)
+                {
+                    <div class = "row">
+                        @foreach (var user in Model.usersList)
+                        {
+                            if (user.ID == item.taskOwnerID)
+                            {
+                                <div class="col-2">
+                                    @user.username
+                                </div>
+                            }
+                        }
+                            <div class="col-2">
+                            @item.title
+                            </div>
+
+                    
+                        @if((Authentication.LoggedUser.ID == Model.SelectedID) || Model.SelectedID == 0)
+                        {
+                            <div class = "col-3">
+                                @Html.ActionLink("Edit ", "UpdateTask", new { id=item.ID })|
+                                @Html.ActionLink("Share ", "ShareTask", new { taskID=item.ID })|
+                                @Html.ActionLink("View" ,"Redirect", new {id = item.ID}) | 
+                                @Html.ActionLink("Delete", "RemoveTask", new { id=item.ID }, new{onclick ="return confirm('Do you realy want to delete')"})
+                            </div>
+                        }
+                        
+
+                    </div>
+                }
+                
+           }
+            }
+            
+           </fieldset>
+        </div>

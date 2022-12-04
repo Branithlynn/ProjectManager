@@ -1,0 +1,280 @@
+﻿++Solution 'ProjectManager' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ProjectManager.sln
+++ProjectManager
+i:{00000000-0000-0000-0000-000000000000}:ProjectManager
+++Connected Services 
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:>195
+++Dependencies
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:>194
+++Properties
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\properties\
+++wwwroot
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\
+++Controllers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\controllers\
+++HomeController.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\controllers\homecontroller.cs
+++UserController.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\controllers\usercontroller.cs
+++DataBaseAccess
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\databaseaccess\
+++Context.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\databaseaccess\context.cs
+++Entity
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\entity\
+++Project.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\entity\project.cs
+++ProjectTask.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\entity\projecttask.cs
+++User.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\entity\user.cs
+++Migrations
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\
+++202111301039151_initial.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301039151_initial.cs
+++202111301039151_initial.Designer.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301039151_initial.designer.cs
+++202111301039151_initial.resx
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301039151_initial.resx
+++202111301042383_second.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301042383_second.cs
+++202111301042383_second.Designer.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301042383_second.designer.cs
+++202111301042383_second.resx
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301042383_second.resx
+++Configuration.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\configuration.cs
+++Models
+++ErrorViewModel.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\entity\errorviewmodel.cs
+++Views
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\
+++Home
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\home\
+++Index.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\home\index.cshtml
+++Privacy.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\home\privacy.cshtml
+++Shared
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\shared\
+++_Layout.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\shared\_validationscriptspartial.cshtml
+++Error.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\shared\error.cshtml
+++User
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\user\
+++UserC.cshtml
+++_ViewImports.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\_viewstart.cshtml
+++appsettings.json
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\appsettings.json
+++Program.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\program.cs
+++No service dependencies discovered
+++Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:analyzers
+++Frameworks
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:frameworks
+++Packages
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:packages
+++launchSettings.json
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\properties\launchsettings.json
+++css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\css\
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\js\
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\
+++favicon.ico
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\favicon.ico
+++_Layout.cshtml.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\shared\_layout.cshtml.css
+++appsettings.Development.json
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\microsoft.netcore.app
+++EntityFramework (6.4.4)
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:>278
+++site.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\css\site.css
+++site.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\js\site.js
+++bootstrap
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\
+++jquery
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery\
+++jquery-validation
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation-unobtrusive\
+++dist
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery\dist\
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery\license.txt
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0)
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:>443
+++MessagePackAnalyzer
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++UserList.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\user\userlist.cshtml
+++202111301134125_third.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301134125_third.cs
+++202111301134125_third.Designer.cs
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301134125_third.designer.cs
+++202111301134125_third.resx
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\migrations\202111301134125_third.resx
+++Microsoft.EntityFrameworkCore (6.0.0)
+++Microsoft.EntityFrameworkCore.Analyzers
+++SQL Server Database
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:>909
+++SQL Server Database dependency is detected
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:>910
+++Create.cshtml
+i:{35f664ef-cc51-4acb-a3de-dc52fc30a314}:c:\users\s_dob\onedrive\работен плот\projectmanager\projectmanager\views\user\create.cshtml

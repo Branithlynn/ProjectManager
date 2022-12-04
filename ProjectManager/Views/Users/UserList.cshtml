@@ -1,0 +1,108 @@
+﻿@using Common.Repository
+@using Common.Service
+@using Common.Entity
+@model ProjectManager.ViewModel.UserVM.IndexVM
+@{
+    ViewBag.Title = "USER LIST";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class="grid">
+
+        
+            <form action="/Users/UserList" method="get">
+                    <div class = "row">
+                        <div class = "col-4">
+                            @Html.LabelFor(x=>x.Filter.Username)
+                        </div>
+                        <div class = "col-4">
+                            @Html.LabelFor(x=>x.Filter.FirstName)
+                        </div>
+                        <div class = "col-4">
+                            @Html.LabelFor(x=>x.Filter.LastName)
+                        </div>
+                        <div class = "col-2">
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-4">
+                            @Html.TextBoxFor(x=>x.Filter.Username)
+                        </div>
+                        <div class = "col-4">
+                            @Html.TextBoxFor(x=>x.Filter.FirstName)
+                        </div>
+                        <div class = "col-4">
+                            @Html.TextBoxFor(x=>x.Filter.LastName)
+                        </div>
+                        <div class = "col-2">
+                            <input type = "submit" value = "Filter"/>
+                            <a href = "/Users/UserList">Clear</a>
+                        </div>
+                    </div>
+            </form>
+        
+
+
+
+
+
+        <div class = "row">
+            <div class = "col-3">
+                <a class = "left"href="/Users/Create">NEW</a>
+            </div>
+        </div>
+
+    <div class = "row">
+
+        <div class="col-1 textColor">
+            Username
+        </div>
+
+        <div class="col-1 textColor">
+            First Name
+        </div>
+
+        <div class="col-1 textColor">
+            Last Name
+        </div>
+
+        <div class="col-1 textColor">
+            Admin
+        </div>
+
+        <div class="col-1 textColor">
+            Actions
+        </div>
+        <div class="col-2">
+        </div>
+    </div>
+@foreach (var item in Model.Items) {
+    <div class = "row">
+            <div class = "col-1">
+                @item.username
+            </div>
+
+            <div class = "col-1">
+                @item.firstName
+            </div>
+
+            <div class = "col-1">
+                @item.lastName
+            </div>
+
+            <div class = "col-1">
+                @item.IsAdmin
+            </div>
+
+            <div class = "col-2">
+                @Html.ActionLink("Edit ", "UpdateUser", new { id=item.ID })|
+                @Html.ActionLink("Delete", "DeleteUser", new { id=item.ID }, new{onclick ="return confirm('Do you realy want to delete')"})
+            </div>
+    </div>
+}
+    <div>
+            @{
+                Html.RenderPartial("/Views/Shared/PagerPartial.cshtml", Model.Pager);
+            }
+    </div>
+        
+    </div>

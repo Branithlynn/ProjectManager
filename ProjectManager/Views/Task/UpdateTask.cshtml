@@ -1,0 +1,58 @@
+﻿@using Common.Service
+@model ProjectManager.ViewModel.TaskVM.UpdateVM
+@{
+    ViewBag.Title = "UPDATE TASK";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<center>
+            <div class="container">
+            
+                <fieldset>
+                <legend>Update Task</legend>
+                <form action="/Task/UpdateTask" method="post">
+                    @Html.HiddenFor(x => x.ID)
+                    @Html.HiddenFor(x => x.parentID)
+                    <div class="grid">
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.title)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.title,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.title)
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.description)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.description,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.description)
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="right">
+                                    <a href=/Task/TaskList>Back</a>
+                                    <input type="submit" value="update" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        </center>

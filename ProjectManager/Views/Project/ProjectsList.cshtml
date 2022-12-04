@@ -1,0 +1,72 @@
+﻿@using Common.Entity
+@using Common.Repository
+@using Common.Service
+@model ProjectManager.ViewModel.ProjectVM.DisplayVM
+@{
+    ViewBag.Title = "PROJECT LIST";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class = "grid">
+
+            <form action="/Project/ProjectsList" method="get">
+                <div class = "row">
+                    <div class = "col-4">
+                        @Html.LabelFor(x => x.Filter.title):
+                    </div>
+                    <div class = "col-2">
+                    </div>
+                </div>
+                <div class = "row">
+                    <div class = "col-4">
+                        @Html.TextBoxFor(x => x.Filter.title)
+                    </div>
+                    <div class = "col-2">
+                        <input type = "submit" value = "filter" />
+                        <a href = "/Project/ProjectsList">clear</a>
+                    </div>
+                </div>
+            </form>
+
+
+
+
+
+            <div class = "row">
+                <a class="left" href="/Project/CreateProject">NEW</a>
+            </div>
+
+            <div class = "row">
+                <div class = "col-1">
+                    Title
+                </div>
+                <div class = "col-2">
+                    Action
+                </div>
+                <div class = "col-2">
+                </div>
+            </div>
+            @foreach (var item in Model.ProjectsList) 
+            {
+                @if (item.ownerID == Authentication.LoggedUser.ID)
+                {
+                    <div class="row">
+                        <div class="col-1">
+                            @Html.DisplayFor(modelItem => item.title)
+                        </div>
+
+                        <div class="col-2">
+                            @Html.ActionLink("Edit", "UpdateProject", new { id = item.ID}) |
+                            @Html.ActionLink("Delete", "DeleteProject", new { id=item.ID }, new{onclick ="return confirm('Do you realy want to delete')"}) |
+                            @Html.ActionLink("View" ,"Redirect", new {id = item.ID}) |
+                            @Html.ActionLink("Share","Share", new {id = item.ID})
+                        </div>
+                    </div>
+                }
+        
+            }
+            <div>
+                @{
+                Html.RenderPartial("/Views/Shared/PagerPartial.cshtml", Model.Pager);
+                }
+            </div>
+        </div>

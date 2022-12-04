@@ -1,0 +1,100 @@
+﻿@model ProjectManager.ViewModel.UserVM.CreateVM
+@using Common.Service
+@{
+    ViewBag.Title = "ADD USER";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<center>
+            <div class="container">
+            
+                <fieldset>
+                <legend>Add User</legend>
+                <form action="/Users/Create" method="post">
+                    <div class="grid">
+
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.Username)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.Username,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.Username)
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.Password)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.Password,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.Password)
+                            </div>
+
+                        </div>
+                        
+
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.FirstName)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.FirstName,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.FirstName)
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.LastName)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.TextBoxFor(x => x.LastName,new { autocomplete = "off" })
+                                
+                            </div>
+                            <div class="col-2">
+                                @Html.ValidationMessageFor(x=>x.LastName)
+                            </div>
+
+                        </div>
+                        <div class="row">
+
+                            <div class="col-1">
+                                @Html.LabelFor(x => x.IsAdmin)
+                            </div>
+
+                            <div class="col-2">
+                                @Html.CheckBoxFor(x => x.IsAdmin)
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="right">
+                                    <a href=/Users/UserList>Back</a>
+                                    <input type="submit" value="create" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        </center>

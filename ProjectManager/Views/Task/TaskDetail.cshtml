@@ -1,0 +1,155 @@
+﻿@using Common.Service
+@using Common.Repository
+@model ProjectManager.ViewModel.TaskVM.DetailsVM
+@{
+    ViewBag.Title = "TASK INFO";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<div class ="grid">
+            <strong>Task info</strong>
+                <div class = "row">Task title: @Authentication.LoggedTask.title</div>
+                <div class = "row">Task description: @Authentication.LoggedTask.description</div>
+
+                <form action="TaskDetail" method = "get">
+                    @Html.HiddenFor(x => x.Comment.Date)
+                    <div class = "row">
+                        <div class = "col-7">
+                            Owner
+                        </div>
+                        <div class = "col-6">
+                            From
+                        </div>
+                        <div class = "col-6">
+                            To
+                        </div>
+                        <div class = "col-1">
+
+                        </div>
+                    </div>
+                    <div class = "row">
+                        <div class = "col-7">
+                            @Html.DropDownListFor(m => m.Filter.UserID, Model.ListOfUsers,new {})
+                        </div>
+                        <div class = "col-6">
+                            @Html.EditorFor(x => x.Filter.From)
+                        </div>
+                        <div class = "col-6">
+                            @Html.EditorFor(x => x.Filter.To)
+                        </div>
+                        <div class = "col-1">
+                            <input type = "submit" value = "filter" />
+                            <a href = "/Task/TaskDetail">clear</a>
+                        </div>
+                    </div>
+                </form>
+
+            <div class = "row">
+                <div class = "col-1">
+                    <a href = "/Logs/CreateSpecific">NEW</a>
+                </div>
+            </div>
+            
+
+
+
+            <fieldset>
+                <legend>LOGS</legend>
+            
+            <div class = "row">
+
+                <div class="col-2">
+                    Owner
+                </div>
+
+                <div class="col-2">
+                    Worked Hours
+                </div>
+                
+                <div class = "col-2">
+                    Date
+                    </div>
+                
+
+                <div class="col-2">
+                </div>
+
+            </div>
+            
+            <div class = "row">
+                @foreach (var item in Model.Logs)
+                {
+                    
+                    <div class = "row">
+                            @foreach (var user in Model.Owner)
+                            {
+                                if(item.UserID == user.ID)
+                                {
+                                    <div class="col-2">
+                                        @user.username
+                                    </div>
+                                }  
+                            }
+                        <div class = "col-2">
+                            @item.LoggedHours
+                        </div>
+
+                        <div class = "col-2">
+                            @item.Date
+                        </div>
+                    </div>
+                    
+                    
+                }
+            </div>
+            
+           </fieldset>
+           <fieldset>
+               <legend>Comments</legend>
+               @foreach (var item in Model.CommentsList)
+               {
+                    <div class = "row">
+                        <div class = "col-1">
+                            User: 
+                        </div>
+                        @foreach (var user in Model.Owner)
+                        {
+                            if (user.ID == item.UserID)
+                            {
+                                <div class = "col-1">
+                                    @user.username
+                                </div>
+                            }
+                        }
+                    </div>
+
+                    <div class = "row">
+                       <div class = "col-1">
+                           Comment: 
+                       </div>
+                       <div class = "col-3">
+                           @item.Comment
+                       </div>
+                    </div>
+                    <hr/>
+               }
+               
+
+               <form action = "TaskDetail" method = "get">
+                   @Html.HiddenFor(x => x.Comment.UserID)
+                   @Html.HiddenFor(x => x.Comment.TaskID)
+                   <div class = "row">
+                       <div class = "col-1">
+                           Comment: 
+                       </div>
+
+                       <div class="col-4">
+                           @Html.TextBoxFor(x => x.Comment.Comment,new { autocomplete = "off" })
+                       </div>
+                       <div class = "col-1">
+                           <input type="submit" value="comment"/>
+                       </div>
+                   </div>
+               </form>
+               
+           </fieldset>
+        </div>

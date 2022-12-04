@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    color : #edf2f4;
+    background-color: #2b2d42;
+}
+
+.container {
+    display: inline-block;
+    width: 100%;
+}
+
+.pager a {
+    margin: 0 3px;
+    color: #ef233c;
+    text-decoration: none;
+}
+header {
+    
+    background-color: #d90429;
+    border-radius: 10px;
+}
+.menu {
+    background-color: #d90429;
+    border-radius: 10px;
+    
+}
+    .menu ul {
+        list-style: none;
+        margin: 5px 0px;
+        text-transform: uppercase;
+        background-color: #9d021d;
+    }
+        .menu ul span {
+            background-color: #d90429;
+            margin: 0px 10px;
+            padding: 10px;
+        }
+
+        .menu ul a {
+            background-color: #d90429;
+            padding:10px;
+            margin-right: 12px;
+            text-decoration: none;
+        }
+
+header ul a {
+    background-color: #d90429;
+    font-size: 16px;
+    transition: all 0.3s ease 0s;
+}
+    header ul a:hover {
+        height: 18px;
+        background: #9d021d;
+        border-radius: 8px;
+    }
+.grid {
+    display: inline-block;
+    width: 100%;
+}
+
+    .grid input[type=text] {
+        width: 300px;
+    }
+
+    .grid input[type=password] {
+        width: 300px;
+    }
+
+    .grid .row {
+        display: inline-block;
+        width: 100%;
+        margin: 2px 0px;
+    }
+
+        .grid .row .col-1 {
+            float: left;
+            width: 150px;
+        }
+
+        .grid .row .col-2 {
+            float: left;
+            width: 300px;
+        }
+
+        .grid .row .col-3 {
+            float: left;
+            width: 450px;
+        }
+
+        .grid .row .col-4 {
+            float: left;
+            width: 320px;
+        }
+        .grid .row .col-5 {
+            float: left;
+            width: 65px;
+        }
+        .grid .row .col-6 {
+            float: left;
+            width: 200px;
+        }
+        .grid .row .col-7 {
+            float: left;
+            width: 110px;
+        }
+
+.field-validation-error {
+    color: #ef233c;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.red {
+    color: #ef233c;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.textColor {
+    color: #ef233c;
+}

@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectManager
+build_property.RootNamespace = ProjectManager
+build_property.ProjectDir = C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\ProjectManager\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\s_dob\OneDrive\Работен плот\ProjectManager\ProjectManager
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Home/HomePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Logs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Logs/CreateSpecific.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xDcmVhdGVTcGVjaWZpYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Logs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Project/CreateProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxDcmVhdGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Project/ProjectsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxQcm9qZWN0c0xpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Project/Share.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxTaGFyZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Project/SharedProjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxTaGFyZWRQcm9qZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Project/UpdateProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdFxVcGRhdGVQcm9qZWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Shared/PagerPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhZ2VyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Task/AddTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xBZGRUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Task/ShareTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xTaGFyZVRhc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Task/TaskDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xUYXNrRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Task/TaskList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xUYXNrTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Task/UpdateTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xVcGRhdGVUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Users/Loggin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9nZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Users/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Users/UpdateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXBkYXRlVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/s_dob/OneDrive/Работен плот/ProjectManager/ProjectManager/Views/Users/UserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcVXNlckxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 

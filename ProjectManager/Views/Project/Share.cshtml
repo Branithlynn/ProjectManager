@@ -1,0 +1,76 @@
+﻿@using Common.Repository
+@using Common.Service
+@model ProjectManager.ViewModel.ProjectVM.ShareVM
+@{
+    ViewBag.Title = "SHARE PROJECT";
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+<fieldset>
+            <div class="grid">
+                <div class="row">
+
+                    <div class="col-1">
+                        @Html.DisplayNameFor(x => x.title)
+                    </div>
+
+                    <div class="col-2">
+                        @Html.DisplayFor(x => x.title)
+                    </div>
+
+                </div>
+                <div class="row">
+
+                    <div class="col-1">
+                        @Html.DisplayNameFor(x => x.description)
+                    </div>
+
+                    <div class="col-2">
+                        @Html.DisplayFor(x => x.description)
+                    </div>
+
+                </div>
+                <div class = "row">
+                    <form action="/Project/Share" method="post">
+                        <input type="hidden" name="ProjectID" value="@Model.ID"/>
+                        <div class="col-1">
+                            Share with : 
+                        </div>
+                        <div class="col-2">
+                            @Html.DropDownListFor(m => m.SelectedID, Model.ListOfUsers, new {})
+                        </div>
+                        <div class="col-2">
+                            <input type="submit" value ="Share"/>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </fieldset>
+        <div class = "grid">
+            <div class = "row">
+                <div class = "col-1">
+                    Shared with:
+                </div>
+            </div>
+            @foreach (var item in Model.SharedList)
+            {
+                @if (item.ProjectID == Model.ID)
+                {
+                    @foreach (var user in Model.UsersList)
+                    {
+                        @if (user.ID == item.UserID)
+                        {
+                            <div class = "row">
+                                <div class = "col-1">
+                                    @user.username
+                                </div>
+                            
+
+                                <div class = "col-2">
+                                    @Html.ActionLink("Remove" ,"RevomoveShare", new {id = item.ProjectID , userID = item.UserID})
+                                </div>
+                            </div>
+                        }
+                    }
+                }
+            }
+        </div>
